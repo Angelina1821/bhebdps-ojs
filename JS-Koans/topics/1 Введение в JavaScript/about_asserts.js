@@ -2,12 +2,12 @@ describe("About Asserts (about_asserts.js)", function() {
   // We shall contemplate truth by testing reality, via spec expectations.
   it('should expect true', function() {
     // Your journey begins here: Replace the word false with true 
-    expect(FILL_ME_IN).toBe(true);
+    expect(true).toBe(true);
   });
 
   // To understand reality, we must compare our expectations against reality.
   it('should expect equality', function() {
-    let expectedValue = FILL_ME_IN;
+    let expectedValue = 2;
     let actualValue = 1 + 1;
 
     expect(actualValue === expectedValue).toBeTruthy();
